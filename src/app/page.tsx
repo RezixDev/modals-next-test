@@ -81,7 +81,7 @@ export default function Home() {
 			<h1 className="text-2xl font-bold mb-4">Chat with GPT-4</h1>
 
 			<div className="flex-1 overflow-y-auto mb-4 space-y-4">
-				{messages.map((msg, index) => (
+				{messages.map((msg) => (
 					<div
 						key={msg.timestamp}
 						className={`p-4 rounded-lg ${
